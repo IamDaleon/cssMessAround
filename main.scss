@@ -1,0 +1,38 @@
+*{
+    margin: 2.5em;
+    padding: 0;
+}
+
+body {
+    background: blue;
+    
+    p {
+        font-weight: bolder;
+    }
+    
+    .heroban {
+        position: absolute;
+        top: 0;
+        left: 35%;
+        background: url("/assests/img/pexels-christopher-beck-5930091.jpg");
+        background-size: cover;
+        background-position-x: 20%;
+        background-position-y: 60%;
+        width: 65%;
+        height: 75%;
+        z-index: -1;
+    }
+
+    .secondaryhero {
+        position: absolute;
+        top: 62vh;
+        left: 25%;
+        background: url("/assests/img/pexels-godisable-jacob-977920.jpg");
+        background-size: cover;
+        background-position-x: 45%;
+        background-position-y: 60%;
+        width: 24%;
+        height: 30%;
+        z-index: 1;
+    }
+}
